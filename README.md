@@ -2,9 +2,13 @@
 This repository demonstrates how to build a chatbot named SuperBot using LangGraph and LLMs (Large Language Models) like OpenAI GPT or Groq.
 
 Key concepts covered:
+
 	•	Using graph structures to design chatbot workflows.
+
 	•	Managing conversation history with reducers (add_messages).
+
 	•	Connecting to OpenAI GPT or Groq models.
+
 	•	Running and streaming chatbot responses.
 
     By the end, you will have a working chatbot capable of handling back-and-forth conversations while maintaining memory of past interactions.
@@ -68,16 +72,25 @@ Key concepts covered:
 ⸻
 
 🚀 Building the Chatbot
+
 	1.	Define State
+
                 Store conversation messages in the state.
+
 	2.	Load Environment Variables
+
                 Securely load API keys from .env.
+
 	3.	Set up LLM Models
+
                 Connect to GPT or Groq.
+
 	4.	Define SuperBot Function
+
                 Handles message processing by calling the LLM.
 
 	5.	Build Graph
+
                 Add nodes and edges
 
 	6.	Compile Graph
@@ -103,10 +116,15 @@ Key concepts covered:
 ⸻
 
 ✅ Key Takeaways
+
 	•	LangGraph provides a graph-based approach for building AI apps.
+
 	•	Reducers like add_messages help maintain conversation memory.
+
 	•	LLMs such as GPT or Groq can be easily integrated.
+
 	•	Supports both direct execution and streaming responses.
+    
 	•	The chatbot is modular, making it easy to expand with more nodes.
 
 ⸻
